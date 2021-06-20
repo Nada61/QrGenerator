@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/qrcode.js" defer></script>
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    
+     <div class="container py-5">
+    <div class="row text-center text-white">
+        <div class="col-lg-8 mx-auto">
+            <h1 class="display-4">Make your life easier</h1>
+            <p class="lead mb-0">Using QR Code and Link Generator.</p>
+        </div>
+    </div>
+</div>
+   
+    <div class="container">
+        <div class="row text-center">
+        <div class="col-8">
+            <div class="bg-white rounded shadow-sm py-5 px-4">
+            <h4 class="mb-0">Generate your QR Code</h4>
+            <div class="main" id="main">
+        
+     <form>
+         <label for="apply"><input type="file" name="" id="apply" accept="image/*,.pdf">Get file</label>
+            <input type="file" name="image">
+            <p><img id="output" width="200" class=" px-2 mt-2 output" name="data" style="" /></p>
+
+           <a id="test" href="#"></a>
+            <h6 ></h6>
+        </form>
+        <button class="btn" id="generateBtn">Generate</button>
+        
+        
+       
+        
+        
+        
+    </div>
+            
+            </div> 
+    </div>
+             <div class="col-4">
+            <div class="bg-white rounded shadow-sm py-5 px-4">
+            <h4 class="mb-0">Preview QR code</h4>
+            <div class="main" id="main">
+                <div class="qrdiv hide" id="qrdiv">
+            <div class="qrcode" id="qrcode"></div>
+            <button class="downloadBtn" id="downloadBtn">Download</button>
+        </div>
+        
+      
+        
+        
+        
+    </div>
+            
+            </div> 
+    </div>
+            
+               
+    </div>
+    </div>
+        
+    
+    
+    <!--<div class="container">
+        <div class="file_up_area">File Upload
+            <input type="file" id="fileUp" name="">
+        </div>
+        <h3>Image File</h3>
+        <div class="file_area">
+            <img src="" id="imageFile">
+        </div>
+        <h3>Base64 Data</h3>
+        <div class="file_area">
+            <textarea id="Base64Data"></textarea>
+        </div>
+    </div>-->
+   <!-- End -->
+
+
+</body>
+
+</html>
