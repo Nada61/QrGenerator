@@ -7,7 +7,7 @@ function main() {
 	
 
     document.querySelector('form input').onchange = function(){
-    var result = 'https://clabresults.mohp.gov.eg/'+this.value.split('\\')[2];
+    var result = 'https://brave-kare-55d88d.netlify.app/'+this.value.split('\\')[2];
     //this.nextElementSibling.innerHTML = 'final link '+result;
     var image = document.getElementById('output');
 	     image.src = URL.createObjectURL(event.target.files[0]);
